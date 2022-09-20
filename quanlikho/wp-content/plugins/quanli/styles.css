@@ -1,0 +1,46 @@
+.cham label {
+    font-size: 18px;
+}
+
+.form-cham input#ten,
+.form-cham input#congviec,
+.form-cham input#ngay,
+.form-cham input#gia {
+    margin: 10px 0 20px 0;
+}
+.form-cham input#ok {
+    width: 80px;
+    height: 30px;
+}
+h2.title_cham {
+    font-size: 36px;
+    text-align: center;
+}
+.table_cham th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table_cham td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table_search th {
+    border: 1px solid;
+    padding: 10px;
+}
+.table_search td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.form-suacongviec label{
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+}
+
+.form-suacongviec input#ok {
+    width: 10%;
+    margin-top: 15px;
+}

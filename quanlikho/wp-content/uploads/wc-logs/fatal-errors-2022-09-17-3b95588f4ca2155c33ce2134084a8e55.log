@@ -1,0 +1,78 @@
+2022-09-17T08:47:25+00:00 CRITICAL Uncaught Error: Object of class WC_Admin_Menus could not be converted to string in E:\xampp\htdocs\quanlikho\wp-includes\functions.php:2167
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\functions.php(2167): preg_replace('|(?<=.)/+|', '/', Array)
+#1 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(716): wp_normalize_path(Array)
+#2 E:\xampp\htdocs\quanlikho\wp-admin\includes\plugin.php(1404): plugin_basename(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(84): add_submenu_page('WooCommerce', 'Reports Daily', 'view_woocommerc...', 'wc-reports', Array)
+#4 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): WC_Admin_Menus->reports_menu('')
+#5 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\quanlikho\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#8 E:\xampp\htdocs\quanlikho\ in E:\xampp\htdocs\quanlikho\wp-includes\functions.php on line 2167
+
+2022-09-17T08:47:40+00:00 CRITICAL Uncaught Error: Object of class WC_Admin_Menus could not be converted to string in E:\xampp\htdocs\quanlikho\wp-includes\functions.php:2167
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\functions.php(2167): preg_replace('|(?<=.)/+|', '/', Array)
+#1 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(716): wp_normalize_path(Array)
+#2 E:\xampp\htdocs\quanlikho\wp-admin\includes\plugin.php(1404): plugin_basename(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(84): add_submenu_page('WooCommerce', 'Reports Daily', 'view_woocommerc...', 'wc-reports', Array)
+#4 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): WC_Admin_Menus->reports_menu('')
+#5 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\quanlikho\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#8 E:\xampp\htdocs\quanlikho\ in E:\xampp\htdocs\quanlikho\wp-includes\functions.php on line 2167
+
+2022-09-17T08:47:50+00:00 CRITICAL Uncaught Error: Object of class WC_Admin_Menus could not be converted to string in E:\xampp\htdocs\quanlikho\wp-includes\functions.php:2167
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\functions.php(2167): preg_replace('|(?<=.)/+|', '/', Array)
+#1 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(716): wp_normalize_path(Array)
+#2 E:\xampp\htdocs\quanlikho\wp-admin\includes\plugin.php(1404): plugin_basename(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(84): add_submenu_page('WooCommerce', 'Reports Daily', 'ok', 'wc-reports', Array)
+#4 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): WC_Admin_Menus->reports_menu('')
+#5 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 E:\xampp\htdocs\quanlikho\wp-admin\includes\menu.php(155): do_action('admin_menu', '')
+#8 E:\xampp\htdocs\quanlikho\wp-admin\menu.ph in E:\xampp\htdocs\quanlikho\wp-includes\functions.php on line 2167
+
+2022-09-17T09:10:53+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:10:55+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:10:55+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:11:11+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:11:13+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:11:13+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:16:29+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:16:32+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:16:32+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:18:38+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:18:40+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:18:41+00:00 CRITICAL Cannot redeclare add_admin_menu() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 27
+
+2022-09-17T09:20:49+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T09:20:51+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T09:20:51+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T09:37:32+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T09:37:33+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T09:37:33+00:00 CRITICAL Cannot redeclare show_plugin_options() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:42) in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 39
+
+2022-09-17T10:02:03+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:16) in E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php on line 19
+
+2022-09-17T10:02:05+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:16) in E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php on line 19
+
+2022-09-17T10:02:05+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:16) in E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php on line 19
+

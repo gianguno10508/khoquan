@@ -1,0 +1,26 @@
+h2.title_baocao {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+.table_baocao{
+    margin: 25px auto;
+}
+.table_baocao th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table_baocao td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.tongket{
+    text-align: center;
+    margin-top: 15px;
+}
+.tongket h4{
+    margin: 10px 0;
+    font-size: 22px;
+}

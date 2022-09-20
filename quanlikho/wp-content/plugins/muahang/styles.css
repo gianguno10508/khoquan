@@ -1,0 +1,96 @@
+#wpbody-content{
+    overflow-x: hidden;
+}
+h2.title-muahang {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+.table_muahang_dienthoai{
+    margin: 25px auto;
+}
+.table_muahang_dienthoai th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table_muahang_dienthoai td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+h2.title-order{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+.order-form p{
+    margin: 0;
+    font-weight: bold;
+}
+.order-form .thongtin{
+    display: flex;
+}
+.order-form label{
+    margin-top: 15px;
+}
+.order-form label,
+.order-form label input{
+    width: 100%;
+}
+.order-form .thongtin input#ten{
+    margin: 0;
+}
+.order-form label#baohanh{
+    width: 100%;
+}
+.order-form input#mabaohanh{
+    width: 100%;
+}
+
+
+h2.title-sua{
+    font-size: 32px;
+    margin-top: 15px;
+}
+.sua-form label{
+    margin-top: 15px;
+}
+.sua-form label p{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.sua-form .thongtin label{
+    width: 40%;
+}
+.sua-form .thongtin label input#ho,
+.sua-form .thongtin label input#ten{
+    width: 100%;
+    margin: 0;
+}
+
+.sua-form label.diachisua,
+.sua-form label.sodienthoaisua,
+.sua-form label.congviecsua,
+.sua-form label.giasua,
+.sua-form label.mabaohanhsua{
+    width: 40%;
+}
+
+.sua-form input#diachi,
+.sua-form input#sodienthoai,
+.sua-form input#congviec,
+.sua-form input#gia,
+.sua-form input#mabaohanh{
+    width: 100%;
+}
+
+input#gia {
+    margin: 0;
+}
+
+.sua-form input.dat {
+    display: block;
+    margin-top: 10px;
+}

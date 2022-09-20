@@ -1,0 +1,473 @@
+2022-09-20T01:08:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:10:23+00:00 CRITICAL Uncaught Error: Call to undefined function set_price() in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:45
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 45
+
+2022-09-20T01:10:34+00:00 CRITICAL Uncaught Error: Call to undefined function set_price() in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:45
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 45
+
+2022-09-20T01:11:58+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(50): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:12:22+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:12:55+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(50): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:13:03+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:13:31+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:14:24+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(51): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:14:31+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:83
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 83
+
+2022-09-20T01:15:34+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(52): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:17:53+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:20:38+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(51): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:21:03+00:00 CRITICAL Uncaught Error: Call to undefined function set_price() in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:46
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 46
+
+2022-09-20T01:21:20+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:22:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:23:14+00:00 CRITICAL Uncaught Error: Call to undefined function set_price() in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:45
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 45
+
+2022-09-20T01:23:44+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:24:17+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : line_items [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('orders', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(50): Automattic\WooCommerce\Client->post('orders', Array)
+#4 E:\xampp\htd in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T01:24:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:82
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 82
+
+2022-09-20T01:26:30+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:89
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 89
+
+2022-09-20T01:27:56+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:89
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 89
+
+2022-09-20T01:32:26+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:89
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 89
+
+2022-09-20T01:35:23+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on bool in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:89
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): sua('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('mua-hang_page_s...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 89
+
+2022-09-20T02:26:46+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): get_daily_purchases_total('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_b...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 74
+
+2022-09-20T02:26:56+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): get_daily_purchases_total('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_b...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 74
+
+2022-09-20T02:27:55+00:00 CRITICAL Uncaught Error: Call to undefined function money_format() in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): get_daily_purchases_total('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_b...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php on line 74
+
+2022-09-20T02:41:40+00:00 CRITICAL Uncaught Error: Call to undefined function confirm() in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php:261
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php(166): dienthoaimua('53')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): order('')
+#2 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_m...')
+#5 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\muahang\index.php on line 261
+
+2022-09-20T04:18:05+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 14
+
+2022-09-20T04:18:07+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 14
+
+2022-09-20T04:18:07+00:00 CRITICAL Cannot redeclare add_admin_menu_ok() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\baocaongay\index.php:29) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 14
+
+2022-09-20T04:18:28+00:00 CRITICAL Cannot redeclare test() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:15) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 28
+
+2022-09-20T04:18:30+00:00 CRITICAL Cannot redeclare test() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:15) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 28
+
+2022-09-20T04:18:30+00:00 CRITICAL Cannot redeclare test() (previously declared in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanli\index.php:15) in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 28
+
+2022-09-20T04:38:24+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 74
+
+2022-09-20T04:40:05+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:77
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 77
+
+2022-09-20T04:40:23+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:77
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 77
+
+2022-09-20T04:40:40+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 74
+
+2022-09-20T04:40:52+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:74
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 74
+
+2022-09-20T09:45:24+00:00 CRITICAL Uncaught Error: Call to a member function post() on null in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:206
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): them('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('quan-li-kho_pag...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 206
+
+2022-09-20T09:45:53+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : categories [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php(206): Automattic\WooCommerce\Client->post('products', Array)
+ in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T09:57:36+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : categories [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php(206): Automattic\WooCommerce\Client->post('products', Array)
+ in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T10:01:32+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: Error: Tham số không hợp lệ : categories [rest_invalid_param] in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:383
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(419): Automattic\WooCommerce\HttpClient\HttpClient->lookForErrors(Object(stdClass))
+#1 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php(455): Automattic\WooCommerce\HttpClient\HttpClient->processResponse()
+#2 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\Client.php(56): Automattic\WooCommerce\HttpClient\HttpClient->request('products', 'POST', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php(208): Automattic\WooCommerce\Client->post('products', Array)
+ in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php on line 383
+
+2022-09-20T11:17:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_DateTime as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php:113
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php(48): get_customer()
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): show_customer('')
+#2 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_k...')
+#5 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\khachhang\index.php on line 113
+
+2022-09-20T12:40:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:03+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:20+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:31+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:42+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:49+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:41:59+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:42:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:42:37+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:43:03+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:43:18+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:43:40+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:44:05+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+
+2022-09-20T12:44:17+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php:145
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): quanlikhomain('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-admin\admin.php(259): do_action('toplevel_page_q...')
+#4 {main}
+  thrown in E:\xampp\htdocs\quanlikho\wp-content\plugins\quanlikho\index.php on line 145
+

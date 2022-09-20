@@ -1,0 +1,61 @@
+h2.title_quanlikho{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+.table_quanlikho{
+    margin: 25px auto;
+}
+.table_quanlikho th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.table_quanlikho td {
+    border: 1px solid;
+    padding: 10px;
+}
+.table_quanlikho td.sua-chua {
+    background-color: red;
+}
+.thongbao{
+    text-align: center;
+}
+
+
+
+h2.title_themsanpham{
+    font-size: 32px;
+    margin-top: 15px;
+}
+.themsanpham label p{
+    margin: 5px 0;
+    font-weight: bold;
+}
+.themsanpham label#tensanphamthem,
+.themsanpham label#motathem{
+    width: 80%;
+}
+
+.themsanpham input#tensanpham,
+.themsanpham input#danhmuc,
+.themsanpham input#giathem,
+.themsanpham input#mota,
+.themsanpham input#soluongcon{
+    width: 100%;
+}
+.themsanpham input#mota{
+    line-height: 5;
+}
+
+.themsanpham label#danhmucthem,
+.themsanpham label#giathem,
+.themsanpham label#soluongcon{
+    width: 26.5%;
+}
+
+.themsanpham input.them {
+    display: block;
+    margin-top: 10px;
+}
+

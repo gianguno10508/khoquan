@@ -1,0 +1,45 @@
+2022-09-09T01:36:59+00:00 CRITICAL syntax error, unexpected end of file in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php on line 309
+
+2022-09-09T02:39:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_custom_price(), 1 passed in E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php:353
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(873): do_action('woocommerce_cal...', Object(WC_Cart))
+#4 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(146): WC_Cart_Totals->calculate_totals()
+#5 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#6 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommer in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php on line 353
+
+2022-09-09T02:52:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Simple as array in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php:369
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): add_custom_price(Object(WC_Cart))
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(873): do_action('woocommerce_cal...', Object(WC_Cart))
+#4 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(146): WC_Cart_Totals->calculate_totals()
+#5 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart-totals.php(134): WC_Cart_Totals->calculate()
+#6 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1398): WC_Cart_Totals->__construct(Object(WC_Cart))
+#7 E:\xampp\htdocs\quanlikho\wp in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php on line 369
+
+2022-09-09T07:40:52+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php:302
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): add_field('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): woocommerce_simple_add_to_cart('')
+#7 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filter in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php on line 302
+
+2022-09-09T07:41:09+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php:302
+Stack trace:
+#0 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): add_field('')
+#1 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 E:\xampp\htdocs\quanlikho\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(33): do_action('woocommerce_bef...')
+#4 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('E:\\xampp\\htdocs...')
+#5 E:\xampp\htdocs\quanlikho\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1696): wc_get_template('single-product/...')
+#6 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(307): woocommerce_simple_add_to_cart('')
+#7 E:\xampp\htdocs\quanlikho\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filter in E:\xampp\htdocs\quanlikho\wp-content\themes\orchid-store\functions.php on line 302
+
